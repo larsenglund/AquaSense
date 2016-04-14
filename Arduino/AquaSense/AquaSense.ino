@@ -96,7 +96,7 @@ void gprsConnectAndSend() {
   //Serial.print(F("gprs IP address is "));
   //Serial.println(gprs.getIPAddress());
   
-  if (gprs.connect(TCP, "englund.asuscomm.com", 5416, 15)) {
+  if (gprs.connect(TCP, "englund.asuscomm.com", 5416, 15)) { // Use your own server please :)
     Serial.println(F("gprs connect success"));
   }
   else {
@@ -325,7 +325,7 @@ void setup() {
     Serial.println(WiFi.localIP());
 
     Serial.println("Downloading update..");
-    t_httpUpdate_return ret = ESPhttpUpdate.update("englund.asuscomm.com", 5417, "/aquasense.bin", aquasense_version);
+    t_httpUpdate_return ret = ESPhttpUpdate.update("englund.asuscomm.com", 5417, "/aquasense.bin", aquasense_version); // Use your own server please :)
     switch(ret) {
         case HTTP_UPDATE_FAILED:
             USE_SERIAL.printf("HTTP_UPDATE_FAILD Error (%d): %s\n", ESPhttpUpdate.getLastError(), ESPhttpUpdate.getLastErrorString().c_str());
