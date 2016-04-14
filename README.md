@@ -1,9 +1,17 @@
 # AquaSense
-AquaSense water sensor
+AquaSense water sensor. Reports water temperature, water visibility and waves/wind through GPRS to a node.js server that presents some nice "realtime" graphs and allows users to receive alarms when certain water conditions are met. 
+The sensor firmware can be updated through WiFi by going within range of the sensor with a smartphone turn on a hotspot with a specific name and password. At the next wakeup the sensor will use the wifi to connect to the update server and download the new firmware. This could ofcourse be done over GPRS but thats not implemented.
+Feel free to fork and add more features :)
 
-## Mobildata
+
+## Mobile data
+
+### For Swedes
 Comviq kontant tankat med 100kr räcker i 12mån och data kostar 0.35kr/MB vilket ger ca 285MB/år, dvs ca 23.75MB/mån.
 Skickar vi data 1 gång per 15min så kan vi skicka 8100bytes varje gång.
+
+### For the rest of the world
+Use Konekt global sim and modify the code to send a binary struct of the data instead of JSON to keep the amount of data as low as possible.
 
 
 ## Hardware
