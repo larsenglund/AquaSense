@@ -16,8 +16,9 @@ Use Konekt global sim and modify the code to send a binary struct of the data in
 
 ## Hardware
 Thanks to https://donatstudios.com/CsvToMarkdownTable
+
 | What                                                               | Notes   | Why                                | QTY | Price per piece (USD) | Total price (USD) |
-|--------------------------------------------------------------------|---------|------------------------------------|-----|-----------------------|-------------------|
+| ------------------------------------------------------------------ | ------- | ---------------------------------- | --- | --------------------- | ----------------- |
 | ESP8266 (nodemcu v3 eller witty)                                   |         |                                    | 1   | 3.2                   | 3.2               |
 | 5V boost                                                           |         |                                    | 1   | 0.51                  | 0.51              |
 | DHT11                                                              |         | Intern fukt & temp                 | 2   | 0.71                  | 1.42              |
@@ -34,7 +35,6 @@ Thanks to https://donatstudios.com/CsvToMarkdownTable
 | Sum (USD)                                                          |         |                                    |     |                       | 43.28             |
 |                                                                    |         |                                    |     |                       |                   |
 | Sum (SEK)                                                          |         | 1 usd in sek                       | 8.2 |                       | 354.896           |
-|                                                                    |         |                                    |     |                       |                   |
 
 ### KiCad
 ESP schematic and footprint from https://github.com/jdunmire/kicad-ESP8266
