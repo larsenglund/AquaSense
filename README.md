@@ -15,20 +15,26 @@ Use Konekt global sim and modify the code to send a binary struct of the data in
 
 
 ## Hardware
-Vad | Info | Varför | Antal | Styckpris
---- | --- | --- | --- | ---
-DHT11||Intern fukt & temp|2|US $0.71 / piece
-DS18b20 stainless|onewire|Vattentemp vid ca 10cm och ca 90cm|2|US $1.10 / piece
-MMA8451|i2c|Våghöjd|1|US $1.81 / piece
-TSL2561 (BH1750 är billigare)|i2c|Siktdjup|2|US $1.75 / piece
-SIM800L|UART|Internet|1|US $4.78 / piece
-Solar power bank||Ström|1|US $9.28 / piece
-Waterproof clear box 158x90x60mm||Ytlåda|1|US $4.42 / piece
-Waterproof clear box 85x58x33mm||UV-låda|1|US $1.87 / piece
-Gängstång 1m 10mm, vinkeljärn, bultar & muttrar, buntband, silikon||||~ US $10
-MOSFET, transistorer, resistorer, kondensatorer, PCB, kablar||||~ US $4
-ESP8266 (nodemcu v3 eller witty)|||1|~ US $3.2
-5V boost|||1|US $0.51 / piece
+Thanks to https://donatstudios.com/CsvToMarkdownTable
+| What                                                               | Notes   | Why                                | QTY | Price per piece (USD) | Total price (USD) |
+|--------------------------------------------------------------------|---------|------------------------------------|-----|-----------------------|-------------------|
+| ESP8266 (nodemcu v3 eller witty)                                   |         |                                    | 1   | 3.2                   | 3.2               |
+| 5V boost                                                           |         |                                    | 1   | 0.51                  | 0.51              |
+| DHT11                                                              |         | Intern fukt & temp                 | 2   | 0.71                  | 1.42              |
+| DS18b20 stainless                                                  | onewire | Vattentemp vid ca 10cm och ca 90cm | 2   | 1.1                   | 2.2               |
+| MMA8451                                                            | i2c     | Våghöjd                            | 1   | 1.81                  | 1.81              |
+| TSL2561 (BH1750 är billigare)                                      | i2c     | Siktdjup                           | 2   | 1.75                  | 3.5               |
+| SIM800L                                                            | UART    | Internet                           | 1   | 4.78                  | 4.78              |
+| Solar power bank                                                   |         | Ström                              | 1   | 9.28                  | 9.28              |
+| Waterproof clear box 158x90x60mm                                   |         | Ytlåda                             | 1   | 4.42                  | 4.42              |
+| Waterproof clear box 85x58x33mm                                    |         | UV-låda                            | 1   | 1.87                  | 1.87              |
+| Gängstång 1m 10mm, vinkeljärn, bultar & muttrar, buntband, silikon |         |                                    | 1   | 10                    | 10                |
+| MOSFET, transistorer, resistorer, kondensatorer, PCB, kablar       |         |                                    | 1   | 4                     | 4                 |
+|                                                                    |         |                                    |     |                       |                   |
+| Sum (USD)                                                          |         |                                    |     |                       | 43.28             |
+|                                                                    |         |                                    |     |                       |                   |
+| Sum (SEK)                                                          |         | 1 usd in sek                       | 8.2 |                       | 354.896           |
+|                                                                    |         |                                    |     |                       |                   |
 
 ### KiCad
 ESP schematic and footprint from https://github.com/jdunmire/kicad-ESP8266
