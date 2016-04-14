@@ -1,0 +1,17 @@
+{
+  "name": "aquasense",
+  "version": "1.0.0",
+  "description": "wifi & gprs water sensor buoy",
+  "main": "aquasense.js",
+  "scripts": {
+    "test": "node aquasense"
+  },
+  "keywords": [
+    "ocean",
+    "water",
+    "sensor",
+    "buoy"
+  ],
+  "author": "Lars Englund",
+  "license": "ISC"
+}
