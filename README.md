@@ -30,6 +30,9 @@ MOSFET, transistorer, resistorer, kondensatorer, PCB, kablar||||~ US $4
 ESP8266 (nodemcu v3 eller witty)|||1|~ US $3.2
 5V boost|||1|US $0.51 / piece
 
+### KiCad
+ESP schematic and footprint from https://github.com/jdunmire/kicad-ESP8266
+
 ## Testing
 Easy way to start a TCP server for testing: netcat -l 5416
 
